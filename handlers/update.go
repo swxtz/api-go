@@ -7,7 +7,9 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/go-chi/chi"
 	"github.com/swxtz/api-go/models"
+	
 )
 
 func Update(w http.ResponseWriter, r *http.Request) {
